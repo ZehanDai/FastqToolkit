@@ -30,6 +30,7 @@ python fastq_subset.py \
 ## Testing (optional)
 **Prepare test data** (require SRAtoolkit)
 ```
+> srrID=SRR18532519
 > prefetch -c $srrID
 > fasterq-dump $srrID -O $srrID/
 > ls ./$srrID
